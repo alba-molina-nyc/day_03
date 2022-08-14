@@ -116,3 +116,4 @@ else:
 
 [03_roller_coaster_2.0.py](exercises/03_roller_coaster_2.0.py)
 
+[04_bmi_2.0.py](exercises/04_bmi_2.0.py)
