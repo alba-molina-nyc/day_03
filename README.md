@@ -103,5 +103,16 @@ else:
     do this
 ```
 
+**elif**
+
+```python
+if condition1:
+    do A
+elif condition2:
+    do B
+else:
+    do this
+```
+
 [03_roller_coaster_2.0.py](exercises/03_roller_coaster_2.0.py)
 
