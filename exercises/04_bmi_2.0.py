@@ -8,11 +8,11 @@ def bmi_calculator():
 
     if bmi <= 18:
         print(f'your bmi is {bmi} and you are underweight')
-    elif bmi > 18 and bmi_as_int < 25:
+    elif bmi > 18.5:
         print(f'your bmi is {bmi} and you have a normal weight')
-    elif bmi > 25 and bmi_as_int < 30:
+    elif bmi > 25:
         print(f'your bmi is {bmi} and you are overweight')
-    elif bmi > 30 and bmi_as_int < 35:
+    elif bmi > 30:
         print(f'your bmi is {bmi} and you are obese')
     else:
         print(f'your bmi is {bmi_as_int} and you are clinically obese')
