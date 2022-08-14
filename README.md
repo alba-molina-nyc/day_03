@@ -88,3 +88,20 @@ This repl includes my testing code that will check if your code meets this assig
 
 **Solution**
 [odd_or_even](exercises/02_odd_or_even.py)
+
+---
+
+## Nested if /else
+
+```python
+if condition:
+    if another condition:
+        do this
+    else:
+        do this
+else:
+    do this
+```
+
+[03_roller_coaster_2.0.py](exercises/03_roller_coaster_2.0.py)
+
