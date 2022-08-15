@@ -56,3 +56,23 @@ This repl includes my testing code that will check if your code meets this assig
 Solution
 """
 
+# leap year a) every year evenly divisible by 4 aka no remainder
+# except that is also evenly divisible by 100
+# unless the year is also divisible by 400
+
+def leap_year():
+    year = int(input('please enter a year to check whether it is leap or not: '))
+
+    if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+        print('leap year')
+    else:
+        print('not leap year')
+
+        
+   
+
+
+
+if __name__ == '__main__':
+    leap_year()
+
