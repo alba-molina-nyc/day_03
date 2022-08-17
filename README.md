@@ -65,8 +65,6 @@ This is an odd number.
 This is an even number.
 e.g. When you hit run, this is what should happen:
 
-
-
 _Hint_
 All even numbers can be divided by 2 with 0 remainder.
 Try some using the modulo with some odd numbers e.g.
@@ -86,7 +84,7 @@ See what's in common each time.
 **Test Your Code**
 Before checking the solution, try copy-pasting your code into this repl:
 
-https://repl.it/@appbrewery/day-3-1-test-your-code
+<https://repl.it/@appbrewery/day-3-1-test-your-code>
 
 This repl includes my testing code that will check if your code meets this assignment's objectives.
 
@@ -129,7 +127,7 @@ else:
 **Instructions**
 Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366, with an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
 
-https://www.youtube.com/watch?v=xX96xng7sAE
+<https://www.youtube.com/watch?v=xX96xng7sAE>
 
 This is how you work out whether if a particular year is a leap year.
 
@@ -153,6 +151,7 @@ But the year 2100 is not a leap year because:
 
 2100 ÷ 400 = 5.25 (Not Leap)
 ```
+
 Warning your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
 Example Input 1
@@ -165,17 +164,15 @@ Example Output 2
 Not leap year.
 e.g. When you hit run, this is what should happen:
 
-
-
 **Hint**
 Try to visualise the rules by creating a flow chart on www.draw.io
 If you really get stuck, you can see the flow chart I created:
-https://bit.ly/36BjS2D
+<https://bit.ly/36BjS2D>
 
 **Test Your Code**
 Before checking the solution, try copy-pasting your code into this repl:
 
-https://repl.it/@appbrewery/day-3-3-test-your-code
+<https://repl.it/@appbrewery/day-3-3-test-your-code>
 
 This repl includes my testing code that will check if your code meets this assignment's objectives.
 
@@ -185,12 +182,12 @@ This repl includes my testing code that will check if your code meets this assig
 
 ---
 
-### Check multiple conditions in the same line of code 
+### Check multiple conditions in the same line of code
 
 and combining different conditions all in the same line of code
 
-```python
+---
 
+### Asci Art
 
-
-```
+[Asci Art](https://www.asciiart.eu/)
