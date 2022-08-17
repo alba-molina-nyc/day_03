@@ -182,3 +182,15 @@ This repl includes my testing code that will check if your code meets this assig
 **Solution**
 
 [leap_year](exercises/05_leap_year.py)
+
+---
+
+### Check multiple conditions in the same line of code 
+
+and combining different conditions all in the same line of code
+
+```python
+
+
+
+```
