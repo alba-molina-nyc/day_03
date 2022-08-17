@@ -3,23 +3,35 @@ def love_calculator():
     name1 = input('what is your name? \n')
     name2 = input('what is your lovers name? \n')
     name = list(name1 + name2)
-    # print(name)
     true_counter = 0
     love_counter = 0
-    # count number of times T R U E L O V E occurs in your name whatever 
-    # percentage 
 
     for i in name:
         if i == 'T' or i == 'R' or i == 'U' or i == 'E':
             true_counter = true_counter + 1
-            print(f'{true_counter} @ {i} for TRUE')
-          
+         
         elif i == 'L' or i == 'O' or i == 'V' or i == 'E':
             love_counter = love_counter + 1
-            print(f'{love_counter} @ {i} for LOVE')
+           
+
+    percentage = int(f'{str(true_counter)}{str(love_counter)}')
+
+
+
+    if percentage < 10 or percentage > 90:
+        print(f'the percentage is {percentage}, you go together like coke and mentos')
+    elif percentage >= 40 and percentage <= 50:
+        print(f'the percentage is {percentage}, you are alright together')
+    else:
+        print(f'the percentage is {percentage}')
+
+
+    
+
+    
+
         
-    print(f'{true_counter}{love_counter}%')
-    # return true_counter + love_counter + '%'
+
     
 
             
