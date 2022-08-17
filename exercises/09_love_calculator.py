@@ -12,10 +12,11 @@ def love_calculator():
     for i in name:
         if i == 'T' or i == 'R' or i == 'U' or i == 'E':
             true_counter = true_counter + 1
+            print(f'{true_counter} @ {i} for TRUE')
           
         elif i == 'L' or i == 'O' or i == 'V' or i == 'E':
             love_counter = love_counter + 1
-            
+            print(f'{love_counter} @ {i} for LOVE')
         
     print(f'{true_counter}{love_counter}%')
     # return true_counter + love_counter + '%'
