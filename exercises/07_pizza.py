@@ -64,5 +64,7 @@ def order_pizza():
         bill += 1
     print(f'your final bill is ${bill}')
 
+# TODO Love calculator 37, 38 treasure island
+
 if __name__ == '__main__':
     order_pizza()
