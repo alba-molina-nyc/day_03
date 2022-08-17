@@ -24,27 +24,26 @@ def treasure_island():
     print("Welcome to Treasure Island.")
     print("Your mission is to find the treasure.") 
 
-    direction = input('do you wish to go LEFT or do you wish to go RIGHT? : ')
-    decision = input('do you wish to SWIM or to WAIT? : ')
-    door = input('do you choose the RED door, the BLUE door or the YELLOW door? : ')
-
-
-
-    if direction == 'RIGHT':
-        print(f'fall in a hole, game over {direction}')
+    direction = input('do you wish to go LEFT or do you wish to go RIGHT? : ').lower()
+    # decision = input('do you wish to SWIM or to WAIT? : ').lower()
+    # door = input('do you choose the RED door, the BLUE door or the YELLOW door? : ').lower()
     
-    elif direction == 'LEFT':
+    if direction == 'left':
         print(f'going {direction}')
-        if decision == 'SWIM':
+        decision = input('do you wish to SWIM or to WAIT? : ').lower()
+        if decision == 'swim':
             print(f'attacked by trout, game over {decision}')
-        elif decision == 'WAIT':
-            print('we are waiting after going LEFT')
-            if door == 'YELLOW':
+        elif decision == 'wait':
+            door = input('do you choose the RED door, the BLUE door or the YELLOW door? : ').lower()
+            if door == 'yellow':
                 print('you win!{door}')
-            elif door == 'RED':
+            elif door == 'red':
                 print('burned by fire you LOSE{door}')
             else:
                 print('game over')
+ 
+    else:
+        print('Game over')
    
     
 
